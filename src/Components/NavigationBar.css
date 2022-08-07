@@ -1,0 +1,23 @@
+.navbar {
+  background: #101010;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 15px 25px;
+}
+
+.avatar {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}

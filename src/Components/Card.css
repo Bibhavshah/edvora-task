@@ -1,0 +1,45 @@
+.card-container {
+  position: relative;
+  width: 95%;
+  height: 200px;
+  background: #171717;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.json-location {
+  display: flex;
+}
+
+img {
+  width: 250px;
+  height: 75%;
+  margin: 20px 30px;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 0.75;
+  margin: 20px 30px;
+}
+
+.city,
+.state {
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.56);
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.state {
+  right: 175px;
+}

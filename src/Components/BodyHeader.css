@@ -1,0 +1,38 @@
+.body-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container p a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-container p {
+  margin: 0 45px;
+  padding: 0;
+}
+
+.list-container p a:hover {
+  text-decoration: underline;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filter p{
+    margin-left: 5px;
+}
